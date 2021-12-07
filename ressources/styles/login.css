@@ -27,6 +27,10 @@ p {
   width: 150px;
 }
 
-btn-sm {
-  margin-top: -1000px;
+.sign-up {
+  margin-top: 40px;
+}
+
+.sign-up-btn {
+  margin-top: -35px;
 }
