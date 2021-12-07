@@ -1,0 +1,104 @@
+@import "primaryStyle.css";
+
+
+.theme-color-bg {
+    background-color: var(--bgcolor);
+}
+
+.theme-color-1 {
+    background-color:var(--sandYellow);
+}
+.theme-color-2 {
+    background-color: var(--yellow) !important;
+}
+
+.theme-color-3 {
+    background-color: var(--orange) !important;
+}
+
+.theme-color-4 {
+    background-color: var(--lightblue) !important;
+}
+.theme-color-3-fill {
+    fill: var(--orange);
+}
+
+.theme-color-4-fill {
+    fill: var(--lightblue);
+}
+
+
+
+
+
+
+
+.search-icon {
+    fill: var(--lightblue) !important;
+}
+.search-icon-container {
+    border-radius: 50px;
+    border-right: none !important;
+}
+.search-field {
+    border-radius: 50px;
+    border-left: none !important;
+}
+
+
+.text-field-label {
+    font-weight: bold;
+}
+
+.text-field-rounded {
+    border-radius: 15px!important;
+    padding: 5px;
+}
+
+.menu-bg {
+    background-color:  var(--yellow);
+    border-width: 2px;
+    border-color:  var(--orange);
+    text-align: center;
+}
+
+.menu-divider {
+    border-top-color:  var(--orange);
+    border-width: 2px;
+}
+
+
+/*
+    NAVBAR
+*/
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+  }
+  
+  .navbar .navbar-collapse {
+    text-align: center;
+  }
+
+/*
+    CALENDAR
+*/
+
+table, tr, th, td {
+    font-size: 5 !important;
+    border: 1px solid #897F7F !important;
+    padding: .20rem !important;
+}
+
+.time-th {
+    text-size-adjust: 10%;
+    width: 100%;
+}
+.time-cell-selected {
+    background-color:  var(--green) !important;
+}
+.time-ch {
+    background-color:  var(--lightblue) !important;
+}
