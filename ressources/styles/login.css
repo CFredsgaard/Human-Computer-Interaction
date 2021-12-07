@@ -6,9 +6,12 @@ h1 {
   color: #64c9cf !important;
 }
 
-.form-input {
-  border-radius: 25px !important;
-  border-color: white !important;
+form {
+  width: 300px;
+}
+
+form label {
+  margin-top: 20px;
 }
 
 span {
@@ -17,4 +20,17 @@ span {
 
 p {
   text-align: center;
+}
+
+.yel-btn {
+  margin: 25px;
+  width: 150px;
+}
+
+.sign-up {
+  margin-top: 40px;
+}
+
+.sign-up-btn {
+  margin-top: -35px;
 }
