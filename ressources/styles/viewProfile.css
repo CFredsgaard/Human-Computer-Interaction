@@ -1,0 +1,50 @@
+@import "primaryStyle.css";
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.block{
+    margin: 20px;
+}
+.mainprofile{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+.skills{
+    justify-content: left;
+    margin-left: 0px;
+}
+.pawblock{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.goodpaw{
+    color: var(--orange);
+}
+.emptypaw{
+    color: var(--yellow);
+}
+.profilepicture{
+    width: 170px;
+    height: 280px;
+    margin-left: 40px;
+}
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+.information{
+    padding: 20px;
+    background-color: var(--sandYellow);
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
