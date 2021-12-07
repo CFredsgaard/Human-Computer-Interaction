@@ -3,7 +3,8 @@
   --sandYellow: #fde49c;
   --yellow: #ffb740;
   --orange: #df711b;
-  --blue: #64c9cf;
+  --lightblue: #64c9cf;
+  --green: #bacf64;
 }
 
 body {
@@ -30,7 +31,7 @@ form {
 
 .blue-btn {
   color: black !important;
-  background-color: var(--blue) !important;
-  border-color: var(--blue) !important;
+  background-color: var(--lightblue) !important;
+  border-color: var(--lightblue) !important;
   border-radius: 25px !important;
 }
