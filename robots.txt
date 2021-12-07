@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.https://CFredsgaard.github.io/Human-Computer-Interaction/sitemap.xml
+Sitemap: https://CFredsgaard.github.io/Human-Computer-Interaction/sitemap.xml
