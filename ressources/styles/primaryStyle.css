@@ -16,6 +16,11 @@ form {
   text-align: center;
 }
 
+.form-input {
+  border-radius: 25px !important;
+  border-color: white !important;
+}
+
 .yel-btn {
   color: black !important;
   background-color: var(--yellow) !important;
