@@ -1,5 +1,9 @@
 @import "primaryStyle.css";
 
+h1 {
+  color: var(--blue);
+}
+
 button {
-  color: black;
+  color: var(--yellow);
 }

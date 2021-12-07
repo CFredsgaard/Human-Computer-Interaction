@@ -1,3 +1,31 @@
-button {
-  color: red;
+:root {
+  --bgcolor: #fff8e6;
+  --sandYellow: #fde49c;
+  --yellow: #ffb740;
+  --orange: #df711b;
+  --blue: #64c9cf;
+}
+
+body {
+  background-color: var(--bgcolor) !important;
+}
+
+form {
+  margin: 0 auto;
+  width: 250px;
+  text-align: center;
+}
+
+.yel-btn {
+  color: black !important;
+  background-color: var(--yellow) !important;
+  border-color: var(--yellow) !important;
+  border-radius: 25px !important;
+}
+
+.blue-btn {
+  color: black !important;
+  background-color: var(--blue) !important;
+  border-color: var(--blue) !important;
+  border-radius: 25px !important;
 }
