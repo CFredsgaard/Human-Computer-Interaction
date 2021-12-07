@@ -1,0 +1,29 @@
+body {
+  background-color: #fff8e6 !important;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 2%;
+  color: #64c9cf !important;
+}
+
+span {
+  color: #df711b;
+}
+
+.center {
+  margin: 0 auto;
+  width: 100%;
+}
+form {
+  margin: 0 auto;
+  width: 250px;
+  text-align: center;
+}
+
+.submit {
+  margin-top: 15px !important;
+  background-color: #ffb740 !important;
+  border-color: #ffb740 !important;
+}
