@@ -1,1 +1,4 @@
 @import "primaryStyle.css";
+.spacing button {
+  margin: 15px;
+}
