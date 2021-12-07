@@ -8,22 +8,36 @@ h1 {
   color: #64c9cf !important;
 }
 
+.form-input {
+  border-radius: 25px !important;
+  border-color: white !important;
+}
+
 span {
   color: #df711b;
 }
 
-.center {
-  margin: 0 auto;
-  width: 100%;
+p {
+  text-align: center;
 }
+
 form {
   margin: 0 auto;
   width: 250px;
   text-align: center;
 }
 
-.submit {
+.yel-btn-large {
   margin-top: 15px !important;
+  color: black !important;
   background-color: #ffb740 !important;
   border-color: #ffb740 !important;
+  border-radius: 25px !important;
+}
+
+.yel-btn-small {
+  color: black !important;
+  background-color: #ffb740 !important;
+  border-color: #ffb740 !important;
+  border-radius: 25px !important;
 }
