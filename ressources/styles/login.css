@@ -3,11 +3,12 @@
 h1 {
   text-align: center;
   padding-top: 2%;
-  color: #64c9cf !important;
+  color: var(--lightblue) !important;
+  width: 290px;
 }
 
 form {
-  width: 300px;
+  width: 290px;
 }
 
 form label {
@@ -15,22 +16,28 @@ form label {
 }
 
 span {
-  color: #df711b;
+  color: var(--orange);
 }
 
 p {
   text-align: center;
+  font-size: 14px;
 }
 
 .yel-btn {
-  margin: 25px;
-  width: 150px;
-}
-
-.sign-up {
   margin-top: 40px;
+  width: 180px;
 }
 
 .sign-up-btn {
-  margin-top: -35px;
+  margin-top: 25px;
+  width: 125px;
+}
+
+.sign-up {
+  margin-top: 25px;
+}
+
+.sign-up-btn {
+  margin-top: -60px;
 }

@@ -1,0 +1,23 @@
+@import "primaryStyle.css";
+
+h1 {
+  padding-top: 2%;
+  color: var(--orange) !important;
+}
+
+form {
+  width: 350px;
+}
+
+form label {
+  margin-top: 20px;
+}
+
+.yel-btn {
+  margin-top: 40px;
+  width: 180px;
+}
+
+.create-user {
+  text-align: center;
+}

@@ -5,21 +5,23 @@
   --orange: #df711b;
   --lightblue: #64c9cf;
   --green: #bacf64;
+  --lightgray: #dedddd;
 }
 
 body {
   background-color: var(--bgcolor) !important;
+  background-image: url("../images/potes.png") !important;
 }
 
 form {
   margin: 0 auto;
   width: 250px;
-  text-align: center;
 }
 
 .form-input {
   border-radius: 25px !important;
-  border-color: white !important;
+  border-color: lightgray !important;
+  background-color: lightgray !important;
 }
 
 .yel-btn {
