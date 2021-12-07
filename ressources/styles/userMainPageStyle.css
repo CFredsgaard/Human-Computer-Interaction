@@ -1,9 +1,1 @@
 @import "primaryStyle.css";
-
-h1 {
-  color: var(--blue);
-}
-
-button {
-  color: var(--yellow);
-}
