@@ -12,11 +12,11 @@
 .mainprofile{
     display: flex;
     flex-direction: row;
-    justify-content:space-evenly;
+    margin-left: 20px;
 }
 .skills{
     justify-content: left;
-    margin-left: 0px;
+    margin-left: 40px;
 }
 .pawblock{
     display: flex;
@@ -38,13 +38,25 @@ img {
     width: 100%;
     height: 100%;
     object-fit: cover; 
+    border-radius: 25px;
+}
+.container > h3 {
+    margin-left: 40px;
 }
 .information{
+    margin-top: -10px;
+    font-size: 20px;
     padding: 20px;
     background-color: var(--sandYellow);
+    border-radius: 25px;
 }
 .buttons{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+.blue-btn{
+    text-align: center !important;
+    display: table-cell !important;
+    margin: 10px auto !important;
 }
