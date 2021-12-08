@@ -1,0 +1,62 @@
+@import "primaryStyle.css";
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.block{
+    margin: 20px;
+}
+.mainprofile{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+.skills{
+    justify-content: left;
+    margin-left: 40px;
+}
+.pawblock{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.goodpaw{
+    color: var(--orange);
+}
+.emptypaw{
+    color: var(--yellow);
+}
+.profilepicture{
+    width: 170px;
+    height: 280px;
+    margin-left: 40px;
+}
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    border-radius: 25px;
+}
+.container > h3 {
+    margin-left: 40px;
+}
+.information{
+    margin-top: -10px;
+    font-size: 20px;
+    padding: 20px;
+    background-color: var(--sandYellow);
+    border-radius: 25px;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.blue-btn{
+    text-align: center !important;
+    display: table-cell !important;
+    margin: 10px auto !important;
+}
