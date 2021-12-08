@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="ressources/styles/signUpPage.css" />
+    <link rel="stylesheet" href="../ressources/styles/login.css" />
 
     <!-- Required meta tags -->
     <meta charset="utf-8" />
@@ -17,35 +17,26 @@
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
-    
+
     <title>Pawsome</title>
   </head>
   <body>
-    <h1 class="row justify-content-center display-3 font-weight-bold">OPRET NY BRUGER</h1>
-
+    <h1 class="display-3 font-weight-bold">PAW<span>ESOME</span></h1>
+    
     <form>
       <div>
-        <label>Fulde navn</label>
-        <input class="form-input form-control" type="fulde-navn" placeholder="angiv fulde navn"/>
-        <label>Alder</label>
-        <input class="form-input form-control age" type="alder" placeholder="angiv alder"/>
-        <label>Adresse</label>
-        <input class="form-input form-control" type="adresse" placeholder="angiv adresse"/>
-        <label>By</label>
-        <input class="form-input form-control" type="by" placeholder="angiv by"/>
-        <label>Telefon</label>
-        <input class="form-input form-control" type="telefon" placeholder="angiv telefonnummer"/>
         <label>E-mail</label>
-        <input class="form-input form-control" type="e-mail" placeholder="angiv e-mail"/>
-        <label>Kodeord</label>
-        <input class="form-input form-control" type="password" placeholder="angiv password"/>
-        <label>Gentag kodeord</label>
-        <input class="form-input form-control" type="confirm-password" placeholder="bekræft password"/>
+        <input class="form-input form-control" type="email" placeholder="indtast e-mail" />
       </div>
-      <div class="create-user">
-        <a href="userMainPage.html"><button class="yel-btn btn btn-primary btn-lg">Opret bruger</button></a>
+      <div>
+        <label>Password</label>
+        <input class="form-input form-control" type="password" placeholder="indtast password"/>
+      <a href="userMainPage.html"><button class="yel-btn btn btn-primary btn-lg">Login</button></a>
       </div>
-      
+    </form>
+    <div class="sign-up text-center">
+      <p>eller</p><br>
+      <a href="signUpPage.html"><button class="sign-up-btn yel-btn btn btn-secondary btn-sm">Opret ny bruger</button></a>
   </body>
 
     <!-- Optional JavaScript -->

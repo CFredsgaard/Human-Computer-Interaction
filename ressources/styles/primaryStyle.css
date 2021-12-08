@@ -11,11 +11,12 @@
 body {
   background-color: var(--bgcolor) !important;
   background-image: url("../images/potes.png") !important;
+  align-items: center !important;
 }
 
 form {
   margin: 0 auto;
-  width: 250px;
+  width: 290px;
 }
 
 .form-input {
