@@ -21,3 +21,15 @@ form label {
 .create-user {
   text-align: center;
 }
+
+.age-input {
+  width: 45px !important;
+}
+
+.phone-input {
+  width: 125px !important;
+}
+
+.postnr-input {
+  width: 61px !important;
+}

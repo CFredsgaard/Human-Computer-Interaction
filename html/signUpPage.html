@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="../ressources/styles/signUpPage.css" />
+    <link rel="icon" type="image/x-icon" href="../ressources/images/pote.png">
 
     <!-- Required meta tags -->
     <meta charset="utf-8" />
@@ -26,22 +27,22 @@
     <form>
       <div>
         <div>
-          <label>Fulde navn</label>
-          <input class="form-input form-control" type="fulde-navn" placeholder="angiv fulde navn"/>
+          <label>Navn</label>
+          <input class="form-input form-control" placeholder="angiv fulde navn"/>
           <label>Alder</label>
-          <input class="form-input form-control" type="alder"/>
+          <input class="form-input form-control age-input" maxlength="2"/>
         </div>
         <div>
           <label>Adresse</label>
-          <input class="form-input form-control" type="adresse" placeholder="angiv adresse"/>
+          <input class="form-input form-control" type="adresse" placeholder="angiv vejnavn"/>
           <label>By</label>
           <input class="form-input form-control" type="by" placeholder="angiv by"/>
           <label>Postnr.</label>
-          <input class="form-input form-control" type="postnr" placeholder="angiv postnr."/>
+          <input class="form-input form-control postnr-input" type="postnr" maxlength="4"/>
         </div>
         <div>
           <label>Telefon</label>
-          <input class="form-input form-control" type="telefon" placeholder="angiv telefonnummer"/>
+          <input class="form-input form-control phone-input" maxlength="11" type="text" value="+45"/>
           <label>E-mail</label>
           <input class="form-input form-control" type="e-mail" placeholder="angiv e-mail"/>
         </div>
