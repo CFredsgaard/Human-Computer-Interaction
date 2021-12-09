@@ -38,3 +38,10 @@ form {
   border-color: var(--lightblue) !important;
   border-radius: 25px !important;
 }
+
+.grey-btn {
+  color: gray !important;
+  background-color: var(--lightgray) !important;
+  border-color: var(--lightgray) !important;
+  border-radius: 25px !important;
+}

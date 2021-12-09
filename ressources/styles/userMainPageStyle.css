@@ -1,9 +1,39 @@
 @import "primaryStyle.css";
-.spacing button {
-  margin: 15px;
+
+body {
+  background-image: none !important;
 }
 
+/* Navbar */
+.fa-caret-square-down {
+  color: var(--orange) !important;
+}
+
+.fa-envelope {
+  color: var(--lightblue) !important;
+}
+
+/* Links/Buttons */
+a.btn {
+  margin-top: 15px;
+}
+
+.spacing div {
+  margin-bottom: 25px;
+}
+
+/* Profile image */
 img {
-  width: 200px;
-  height: 200px;
+  width: 350px;
+  margin-top: 10px;
+}
+
+/* Rating styles */
+.rating i {
+  margin-right: 10px;
+  color: var(--yellow);
+}
+
+.empty-paw {
+  opacity: 50%;
 }
