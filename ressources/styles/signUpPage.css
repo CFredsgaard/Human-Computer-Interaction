@@ -10,6 +10,10 @@ form label {
   margin-top: 20px;
 }
 
+form {
+  margin-right: auto;
+}
+
 .yel-btn {
   margin-top: 40px;
   width: 180px;
@@ -31,7 +35,15 @@ form label {
   width: 61px !important;
 }
 
+.by-input {
+  width: 208px !important;
+}
+
 table label {
   margin-right: 10px;
-  margin-top: 9px;
+  margin-top: 5px;
+}
+
+.styled-table {
+  width: 350px !important;
 }
