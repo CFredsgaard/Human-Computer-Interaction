@@ -5,6 +5,10 @@ body {
 }
 
 /* Navbar */
+nav i {
+  margin: 0px 15px 0px 15px;
+}
+
 .fa-caret-square-down {
   color: var(--orange) !important;
 }
