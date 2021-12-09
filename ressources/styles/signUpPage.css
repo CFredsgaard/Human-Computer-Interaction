@@ -2,11 +2,8 @@
 
 h1 {
   padding-top: 2%;
+  margin-bottom: 50px !important;
   color: var(--orange) !important;
-}
-
-form {
-  width: 350px;
 }
 
 form label {
@@ -20,4 +17,21 @@ form label {
 
 .create-user {
   text-align: center;
+}
+
+.age-input {
+  width: 45px !important;
+}
+
+.phone-input {
+  width: 125px !important;
+}
+
+.postnr-input {
+  width: 61px !important;
+}
+
+table label {
+  margin-right: 10px;
+  margin-top: 9px;
 }
