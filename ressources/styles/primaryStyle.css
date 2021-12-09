@@ -5,7 +5,7 @@
   --orange: #df711b;
   --lightblue: #64c9cf;
   --green: #bacf64;
-  --lightgray: #c1bfbf;
+  --lightgray: #dedddd;
 }
 
 body {
@@ -40,7 +40,7 @@ form {
 }
 
 .grey-btn {
-  color: gray !important;
+  color: rgb(85, 85, 85) !important;
   background-color: var(--lightgray) !important;
   border-color: var(--lightgray) !important;
   border-radius: 25px !important;
