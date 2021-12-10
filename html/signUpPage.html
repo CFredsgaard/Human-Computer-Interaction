@@ -10,6 +10,9 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
+    <meta 
+      name="description" 
+      content="Pawesome's signup page for creating a main profile to login to the system.">
     
     <!-- Bootstrap CSS -->
     <link
@@ -31,36 +34,10 @@
             <table>
               <tr>
                 <td>
-                  <label>Navn</label>
+                  <label for="name">Navn</label>
                 </td>
                 <td>
-                  <input class="form-input form-control styled-table" type="name" placeholder="angiv fulde navn"/>
-                </td>
-              </tr>
-            </table>
-          </div>
-          <div align="right">
-            <table>
-              <tr>
-                <td>
-                  <label>Alder</label>
-                </td>
-                <td>
-                  <input class="form-input form-control age-input" maxlength="2"/>
-                </td>
-              </tr>
-            </table>
-          </div>
-        </div>
-        <div>
-          <div align="right">
-            <table>
-              <tr>
-                <td>
-                  <label>Adresse</label>
-                </td>
-                <td>
-                  <input class="form-input form-control styled-table" type="adress" placeholder="angiv vejnavn"/>
+                  <input id="name"class="form-input form-control styled-table" type="name" placeholder="angiv fulde navn"/>
                 </td>
               </tr>
             </table>
@@ -69,16 +46,10 @@
             <table>
               <tr>
                 <td>
-                  <label>By</label>
+                  <label for="age">Alder</label>
                 </td>
                 <td>
-                  <input class="form-input form-control by-input" type="city" placeholder="angiv by"/>
-                </td>
-                <td>
-                  <label>	&nbsp;	&nbsp; Postnr.</label>
-                </td>
-                <td>
-                  <input class="form-input form-control postnr-input" type="postnr" maxlength="4"/>
+                  <input id="age" class="form-input form-control age-input" maxlength="2"/>
                 </td>
               </tr>
             </table>
@@ -89,10 +60,28 @@
             <table>
               <tr>
                 <td>
-                  <label>Telefon</label>
+                  <label for="adress">Adresse</label>
                 </td>
                 <td>
-                  <input class="form-input form-control phone-input" maxlength="11" type="text" value="+45"/>
+                  <input id="adress" class="form-input form-control styled-table" type="adress" placeholder="angiv vejnavn"/>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div align="right">
+            <table>
+              <tr>
+                <td>
+                  <label for="city">By</label>
+                </td>
+                <td>
+                  <input id="city" class="form-input form-control by-input" type="city" placeholder="angiv by"/>
+                </td>
+                <td>
+                  <label for="zip-code">	&nbsp;	&nbsp; Postnr.</label>
+                </td>
+                <td>
+                  <input id="zip-code" class="form-input form-control postnr-input" type="postnr" maxlength="4"/>
                 </td>
               </tr>
             </table>
@@ -103,10 +92,24 @@
             <table>
               <tr>
                 <td>
-                  <label>E-mail</label>
+                  <label for="phone">Telefon</label>
                 </td>
                 <td>
-                  <input class="form-input form-control styled-table" type="e-mail" placeholder="angiv e-mail"/>
+                  <input id="phone" class="form-input form-control phone-input" maxlength="11" type="text" value="+45"/>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div>
+          <div align="right">
+            <table>
+              <tr>
+                <td>
+                  <label for="e-mail">E-mail</label>
+                </td>
+                <td>
+                  <input id="e-mail" class="form-input form-control styled-table" type="e-mail" placeholder="angiv e-mail"/>
                 </td>
               </tr>
             </table>
@@ -115,10 +118,10 @@
             <table>
               <tr>
                 <td>
-                  <label>Kodeord</label>
+                  <label for="password">Kodeord</label>
                 </td>
                 <td>
-                  <input class="form-input form-control styled-table" type="password" placeholder="angiv kodeord"/>
+                  <input id="password" class="form-input form-control styled-table" type="password" placeholder="angiv kodeord"/>
                 </td>
               </tr>
             </table>
@@ -127,10 +130,10 @@
             <table>
               <tr>
                 <td>
-                  <label>Gentag</label>
+                  <label for="repeat">Gentag</label>
                 </td>
                 <td>
-                  <input class="form-input form-control styled-table" type="password" placeholder="bekræft kodeord"/>
+                  <input id="repeat" class="form-input form-control styled-table" type="password" placeholder="bekræft kodeord"/>
                 </td>
               </tr>
             </table>
