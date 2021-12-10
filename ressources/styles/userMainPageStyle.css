@@ -5,6 +5,10 @@ body {
 }
 
 /* Navbar */
+nav i {
+  margin: 0px 15px 0px 15px;
+}
+
 .fa-caret-square-down {
   color: var(--orange) !important;
 }
@@ -25,6 +29,7 @@ a.btn {
 /* Profile image */
 img {
   width: 100%;
+  height: auto;
   margin-top: 10px;
 }
 
