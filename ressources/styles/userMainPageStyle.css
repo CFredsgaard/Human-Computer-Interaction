@@ -4,7 +4,6 @@ body {
   background-image: none !important;
 }
 
-/* Navbar */
 nav i {
   margin: 0px 15px 0px 15px;
 }
@@ -17,7 +16,6 @@ nav i {
   color: var(--lightblue) !important;
 }
 
-/* Links/Buttons */
 a.btn {
   margin-top: 15px;
 }
