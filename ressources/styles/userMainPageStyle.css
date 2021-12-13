@@ -1,19 +1,11 @@
 @import "primaryStyle.css";
 
-body {
-  background-image: none !important;
-}
-
 nav i {
   margin: 0px 15px 0px 15px;
 }
 
 .fa-caret-square-down {
   color: var(--orange) !important;
-}
-
-.fa-envelope {
-  color: var(--lightblue) !important;
 }
 
 a.btn {
@@ -24,6 +16,12 @@ a.btn {
   margin-bottom: 25px;
 }
 
+.fa-envelope {
+  color: var(--lightblue) !important;
+}
+body {
+  background-image: none !important;
+}
 /* Profile image */
 img {
   width: 100%;
