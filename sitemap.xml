@@ -1,24 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>https://CFredsgaard.github.io/Human-Computer-Interaction/</loc>
+		<loc>https://CFredsgaard.github.io/Human-Computer-Interaction/html</loc>
 		<priority>0.50</priority>
-		<lastmod>2021-12-07</lastmod>
+		<lastmod>2021-12-13</lastmod>
 	</url>
 	<url>
-		<loc>https://CFredsgaard.github.io/Human-Computer-Interaction/viewProfile.html</loc>
-		<priority>0.17</priority>
-		<lastmod>2021-12-07</lastmod>
+		<loc>https://CFredsgaard.github.io/Human-Computer-Interaction/html/chooseProfileType.html</loc>
+		<priority>0.25</priority>
+		<lastmod>2021-12-09</lastmod>
 	</url>
 	<url>
-		<loc>https://CFredsgaard.github.io/Human-Computer-Interaction/userMainPage.html</loc>
-		<priority>0.17</priority>
-		<lastmod>2021-12-07</lastmod>
+		<loc>https://CFredsgaard.github.io/Human-Computer-Interaction/html/search.html</loc>
+		<priority>0.25</priority>
+		<lastmod>2021-12-13</lastmod>
 	</url>
 	<url>
-		<loc>https://CFredsgaard.github.io/Human-Computer-Interaction/search.html</loc>
-		<priority>0.17</priority>
-		<lastmod>2021-12-07</lastmod>
+		<loc>https://CFredsgaard.github.io/Human-Computer-Interaction/html/signUpPage.html</loc>
+		<priority>0.25</priority>
+		<lastmod>2021-12-13</lastmod>
 	</url>
-
+	<url>
+		<loc>https://CFredsgaard.github.io/Human-Computer-Interaction/html/test.html</loc>
+		<priority>0.25</priority>
+		<lastmod>2021-12-13</lastmod>
+	</url>
+	<url>
+		<loc>https://CFredsgaard.github.io/Human-Computer-Interaction/html/userMainPage.html</loc>
+		<priority>0.25</priority>
+		<lastmod>2021-12-13</lastmod>
+	</url>
+	<url>
+		<loc>https://CFredsgaard.github.io/Human-Computer-Interaction/html/viewProfile.html</loc>
+		<priority>0.25</priority>
+		<lastmod>2021-12-09</lastmod>
+	</url>
 </urlset>
